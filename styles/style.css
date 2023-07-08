@@ -1,0 +1,41 @@
+/* Common styles */
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 20px 25px;
+    border: none;
+}
+
+/* header styles */
+header {
+    background: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    padding: 215px 220px 200px 230px;
+
+.header-container {
+    text-align: right;
+    
+}
+
+.header-title {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.header-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
