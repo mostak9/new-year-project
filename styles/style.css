@@ -19,10 +19,11 @@ header {
     background: url("../images/banner/banner1.png");
     background-repeat: no-repeat;
     padding: 215px 220px 200px 230px;
+}
 
 .header-container {
     text-align: right;
-    
+
 }
 
 .header-title {
@@ -38,4 +39,90 @@ header {
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 32px;
+}
+
+/* failure section styles */
+section {
+    margin: 65px 230px;
+}
+
+.fail-container {
+    display: flex;
+    gap: 85px;
+    align-items: center;
+}
+
+.profile-picture img {
+    width: 400px;
+}
+
+.fail-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.fail-content p {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* plan section styles */
+
+.plan-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.plan-box {
+    text-align: center;
+}
+
+.box-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.box-text {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.plan-box img {
+    width: 90px;
+}
+
+/* watch section style */
+
+.watch-section {
+    padding: 60px 65px;
+    background: url("../images/gradient2.png"), url("../images/watch.png");
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, center;
+    border-radius: 8px;
+}
+
+.watch-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.btn-watch {
+    background-color: #fff;
+    color: #F15B22;
 }
