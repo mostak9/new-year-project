@@ -126,3 +126,47 @@ section {
     background-color: #fff;
     color: #F15B22;
 }
+
+/* footer styles */
+
+.footer-container {
+    background: #151414;
+    color: #fff;
+    padding: 130px 230px;
+    display: flex;
+    gap: 350px;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-content img {
+    width: 46px;
+    margin-right: 24px;
+}
+
+.footer-sub {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    ;
+}
+
+input[type="text"] {
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 100%;
+    background-color: #151414;
+    padding: 22px 20px;
+    margin-bottom: 16px;
+}
